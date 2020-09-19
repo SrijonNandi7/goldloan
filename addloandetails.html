@@ -1,0 +1,83 @@
+<html>
+      <head>
+            <title>Add Loan Details</title>
+            <link rel="stylesheet" type="text/css" href="Style.css">
+      </head>
+
+      <body>
+            
+            <div class="topnav">
+                  <a class="active" href="homepage.html">Home</a>
+                  <a href="employeelogin.html">Employee Login</a>
+                  <a href="logout.php">Logout</a>
+            </div>
+
+            <center>
+            <div class="header">
+                  <h1>Enter Loan Details</h1>
+            </div>
+            <div style="position: absolute;
+            top: 90%;
+            transform: translateY(-50%);
+            width: 100%;
+            padding: 0 20px;">
+                  <div class="form">
+                        <div class="input-fields">
+                        <form action="addloandetails.php" method="post" id="form1">
+
+                        <input name="id" type="text"  class="input" placeholder="Customer ID Number" required><br>    
+
+                        <input name="name" type="text"  class="input" placeholder="Customer Name" required><br>
+                        
+                        <p style="margin: 20px 0;
+                              background: transparent;
+                              border: 0;
+                              padding: 10px;
+                              color: #c5ecfd" >Date of Birth:</p>
+                                                     
+                        <input type="date" name="dob" placeholder="Date of Birth" id="dob" required><br>
+
+                        <input type="occupation" name="occupation"  class="input" placeholder="Occupation" required><br>
+
+                        <input type="address" name="address"  class="input" placeholder="Address" required><br>
+
+                        <p style="margin: 20px 0;
+                              background: transparent;
+                              border: 0;
+                              padding: 10px;
+                              color: #c5ecfd" >Ornament:</p>
+
+                              <select id="ornament" name="ornament" transition: all 2s ease-in-out;
+                                          margin-top: 50px
+                                          width: 50px;
+                                          background: transparent;
+                                          border: none;
+                                          outline: none;
+                                          border-bottom: 1px solid gray;
+                                          color: #fff;
+                                          font-size: 18px;
+                                          margin-bottom: 16px;>
+                                    <option value="bangle">Bangle</option>
+                                    <option value="earring">Earring</option>
+                                    <option value="necklace">Necklace</option>
+                                    <option value="ring">Ring</option>
+                                    <option value="other">Other</option>
+                              </select><br>
+
+                              <input type="weight" name="weight"  class="input" placeholder="Weight (in grams)" required><br>
+
+                              <input type="aadhar" name="aadhar"  class="input" placeholder="AADHAR Number" required><br>
+
+                              <input type="pan" name="pan"  class="input" placeholder="PAN Number" required><br>
+
+                        <input type="submit" class="submit" value="Submit">
+                                              
+                  </form>
+            </div>
+            </center>
+            <br><br><br>
+      
+      </body>
+
+
+</html>

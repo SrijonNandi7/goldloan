@@ -1,0 +1,170 @@
+body{
+      background: url('https://www.tomorrowmakers.com/sites/default/files/2018-11/Commonly%20asked%20questions%20regarding%20gold%20loan.jpg') no-repeat top center;
+      background-size: cover;
+      font-family: sans-serif;
+      background-attachment: fixed;
+}
+
+.wrapper{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      padding: 0 20px;
+}
+
+.form{
+      text-align: center;
+      max-width: 550px;
+      margin: 0 auto;
+      background: rgba(0,0,0,0.8);
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.13);
+}
+
+.input-fields{
+      text-align: center;
+      width: 75%;
+      margin-left: 12%;
+}
+
+.input-fields .input{
+      margin: 20px 0;
+      background: transparent;
+      border: 0;
+      border-bottom: 2px solid #c5ecfd;
+      padding: 10px;
+      color: #c5ecfd;
+}
+
+.input-fields .submit{
+      background: #39b7dd;
+      text-align: center;
+      padding: 15px;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      text-transform: uppercase;
+}
+
+.header {
+      text-align: center;
+      color: black;
+      font-size: 25px;
+}
+
+.topnav {
+      overflow: hidden;
+      background-color: #333;
+}
+    
+.topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+}
+    
+.topnav a:hover{
+      background-color: #ddd;
+      color: black;
+}
+    
+.topnav a.active{
+      background-color: #2891ed;
+      color: white;
+}
+
+.topnav-right{
+      float: right;
+}
+
+
+.slideshow-container{
+      max-width: 80%;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Caption text */
+.text{
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+}
+    
+    /* Number text (1/3 etc) */
+.numbertext{
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+}
+    
+    /* The dots/bullets/indicators */
+.dot{
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+}
+    
+.active{
+      background-color: #717171;
+}
+    
+    /* Fading animation */
+.fade{
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 2.5s;
+      animation-name: fade;
+      animation-duration: 2.5s;
+}
+    
+@-webkit-keyframes fade{
+      from {opacity: .4} 
+      to {opacity: 1}
+}
+    
+@keyframes fade{
+      from {opacity: .4} 
+      to {opacity: 1}
+}
+    
+    /* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px){
+      .text {font-size: 11px}
+}
+
+.bb{	
+      margin:20px;
+      box-shadow: 0px 0px 10px black;
+      border-radius:10px;
+      opacity :0.8;
+}
+.bb:hover{
+      opacity:1;
+}
+
+.tab{
+      position: absolute;
+      z-index: 2;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 60%;
+      height: 400px;
+      background: #fafafa;
+      text-align: center;
+}

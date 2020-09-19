@@ -1,0 +1,59 @@
+<html>
+      <head>
+            <title>Add Employee</title>
+            <link rel="stylesheet" type="text/css" href="Style.css">
+      </head>
+
+      <body>
+
+            <div class="topnav">
+                  <a class="active" href="homepage.html">Home</a>
+                  <a href="viewemployees.php">View Employees</a>
+                  <a href="viewloandetails.php">View Loan Details</a>
+                  <a href="viewcustomers.php">View Customers</a>
+                  
+            </div>
+            
+            <div class="header">
+                  <h1>Enter Employee Details</h1>
+            </div>
+
+
+            <center>
+            <div style="position: absolute;
+            top: 70%;
+            transform: translateY(-50%);
+            width: 100%;
+            padding: 0 20px; margin-bottom: 10%;">
+                  <div class="form">
+                  <div class="input-fields">
+                  <form action="addemployee.php" method="post" id="form1">
+
+                        <input name="id" type="text"  class="input" placeholder="ID Number" required><br> 
+
+                        <input name="name" type="text"  class="input" placeholder="Employee Name" required><br>
+                        
+                        <p style="margin: 20px 0;
+                              background: transparent;
+                              border: 0;
+                              padding: 10px;
+                              color: #c5ecfd" >Date of Birth:</p>
+                        
+                              
+                        <input type="date" name="dob" placeholder="Date of Birth" id="dob" required><br>
+
+                        <input type="email" name="email"  class="input" placeholder="Email ID" required><br>
+
+                        <input type="password" name="password"  class="input" placeholder="Password" required><br>
+
+                        <input type="submit" class="submit" value="Register">
+                                              
+                  </form>
+            </div>
+            </center>
+            <br><br><br>
+      
+      </body>
+
+
+</html>

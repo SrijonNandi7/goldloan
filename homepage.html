@@ -1,0 +1,102 @@
+<html>
+      <head>
+            <title>Home</title>
+            <link rel="stylesheet" type="text/css" href="Style.css">
+      </head>
+
+      <body>
+
+            <div class="topnav">
+                  <a class="active" href="homepage.html">Home</a>
+                  <a href="employeelogin.html" target="_blank">Employee Login</a>
+                  <a href="customerlogin.html" target="_blank">Customer Login</a>
+                  <a href="adminhome.html" target="_blank">Admin Page</a>
+                  <a href="#">About</a>
+            </div>
+
+
+            <div class="header">
+                  <h1>Home Page
+                  </h1>
+            </div>
+
+            <div class="slideshow-container">
+
+                  <div class="mySlides fade">
+                        <img src="https://www.punjabgoldfinance.com/img/bannera.png" style="width:100%; height: 550px;" class="bb">
+                  </div>
+                  
+                  <div class="mySlides fade">
+                        <img src="https://static.businessworld.in/article/article_extra_large_image/1496858447_dgXR3I_gold-loan.jpg" style="width:100%; height: 550px;" class="bb">
+                  </div>
+                  
+                  <div class="mySlides fade">
+                        <img src="https://www.manappuramgroup.com/-/media/Images/Business/Gold-loan/products/SM586960.jpg?h=467&w=700&la=en&hash=BD68E2DDCFD9BE8DC3A3F36FE6E8E96D" style="width:100%; height: 550px;"  class="bb">
+                  </div>
+                  
+            </div>
+                  
+            <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+            </div>
+                  
+                  <script>
+                  var slideIndex = 0;
+                  showSlides();
+                  
+                  function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}    
+                    for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 4000); // Change image every 2 seconds
+                  }
+                  </script>
+                  
+            <br><br><br><br><br>
+
+            <center>
+            <table width="80%" style="background-image: url('https://static.vecteezy.com/system/resources/thumbnails/000/555/407/original/Abstract_background-0006.jpg'); 
+                  background-attachment: fixed; 
+                  background-size: cover; 
+                  background-position: cover; padding: 20px; padding-left: 40px;">
+                  <tbody><tr height="100px">
+                  <td width="60%" style="color :#c5ecfd; font-size: 22px; word-spacing: 5px;">
+                        
+                        * Hassle-free quick processing of loans. * Simplified paperwork. * Easy payment options.  However, the gold 
+                        may be on-sold by the borrower. With Gold Loan, you can get an instant loan against your gold jewellery and 
+                        ornaments. The procedure is simple, documentation is minimal and approval is quick. Features &
+                         Benefits : * You can avail Loan upto Rs.20,00,000 &  upto 80% of value for any purpose * Safety 
+                         & Security of your Gold Jewellery * Loan processed in 30 Minutes * ATL - Anytime Liquidity 
+                         * No EMI, Service only Interest and enjoy the Loan facility * Lower Interest Rates * Simple documentation 
+                         and fast processing.
+                      
+                  
+                  <td><img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-523303,resizemode-1,msid-77560864/wealth/borrow/beware-of-these-loan-tricks-an-insider-tells-you-how-banks-nbfcs-loan-salesmen-lie-to-you.jpg" height="300px" width="90%" style="margin:10px;
+                      box-shadow: 0px 0px 10px black;
+                        border-radius:10px;" class="bb">
+                  </td>
+                  </tr>
+              </tbody></table><br><br>
+            </center>
+            
+
+      </body>
+
+      
+
+
+</html>
+      
+

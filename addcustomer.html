@@ -1,0 +1,62 @@
+<html>
+      <head>
+            <title>Add Customer</title>
+            <link rel="stylesheet" type="text/css" href="Style.css">
+      </head>
+
+      <body>
+            
+            <div class="topnav">
+                  <a href="viewcustomers.php">View Customers</a>
+                  <a href="addloandetails.html">Add Loan Details</a>
+                  <a href="viewloandetails.php">View Loan Details</a>
+                  <div class="topnav-right">
+                        <a href="logout.php" class="active">Logout</a>
+                  </div>
+            </div>
+
+            <center>
+
+            <div class="header">
+                  <h1>Enter Customer Details</h1>
+            </div>
+            <div style="position: absolute;
+            top: 70%;
+            transform: translateY(-50%);
+            width: 100%;
+            padding: 0 20px; margin-bottom: 10%;">
+                  <div class="form">
+                        <div class="input-fields">
+                        <form action="addcustomer.php" method="post" id="form1">
+                        
+                              <input name="id" type="text"  class="input" placeholder="ID Number" required><br>  
+
+                              <input name="name" type="text"  class="input" placeholder="Customer Name" required><br>
+
+                              <p style="margin: 20px 0;
+                              background: transparent;
+                              border: 0;
+                              padding: 10px;
+                              color: #c5ecfd" >Date of Birth:</p>
+                        
+                              
+                              <input type="date" name="dob" placeholder="Date of Birth" id="dob" required><br>
+
+
+                              <input type="email" name="email"  class="input" placeholder="Email ID" required><br>
+
+                              <input type="password" name="password"  class="input" placeholder="Password" required><br><br>
+
+                              <input type="submit" class="submit" value="Register">
+                                              
+                        </form>
+                  </div>
+            </div>
+            </div>
+            </center>
+            <br>
+      
+      </body>
+
+
+</html>

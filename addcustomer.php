@@ -12,7 +12,6 @@
       $query="insert into users (id, name, dob, email, password, type)
       values('$id','$name','$dob','$email','$password', '$type')";
 
-      echo "$query";
       mysqli_query($con, $query);
 
 ?>

@@ -1,3 +1,11 @@
+<?php
+      session_start();
+      if (!isset($_SESSION['user'])){
+            header('location: homepage.html');
+      }
+?>
+
+
 <html>
       <head>
             <title>View Customers</title>
